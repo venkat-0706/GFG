@@ -1,0 +1,19 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/implement-undo-redo/1">Implement UNDO & REDO</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p data-start="180" data-end="282"><span style="font-size: 14pt;">You are given a text document that is initially empty. You need to complete the following functions:</span></p>
+<ul>
+<li data-start="180" data-end="282"><span style="font-size: 14pt;"><strong>void append(char x)</strong>&nbsp;- Append the character x to the end of the document.</span></li>
+<li data-start="180" data-end="282"><span style="font-size: 14pt;"><strong>void undo()</strong>&nbsp;- Undo the most recent APPEND operation (remove the last appended character).</span></li>
+<li data-start="180" data-end="282"><span style="font-size: 14pt;"><strong>void redo()</strong>&nbsp;- Reapply the most recent undone operation (restore the last character removed by UNDO).</span></li>
+<li data-start="180" data-end="282"><span style="font-size: 14pt;"><strong>string read()</strong>&nbsp;- Return the current content of the document as a string.</span></li>
+</ul>
+<p data-start="667" data-end="766"><span style="font-size: 14pt;">There will be a sequence of <strong>q </strong>queries <strong>arr[]</strong>&nbsp;on the document. The queries are represented in numeric form:</span></p>
+<ul>
+<li><span style="font-size: 14pt;">1 x - Call append(x)</span></li>
+<li><span style="font-size: 14pt;">2 - Call undo()</span></li>
+<li><span style="font-size: 14pt;">3 - Call redo()</span></li>
+<li><span style="font-size: 14pt;">4 - Call read()</span></li>
+</ul>
+<p data-start="886" data-end="1076"><span style="font-size: 14pt;">The driver code will process the queries, call the corresponding functions, and finally print the outputs of all&nbsp;<code data-start="999" data-end="1007">READ()</code>&nbsp;operations.<br>You only need to implement the above four functions.<br></span></p>
+<p data-start="886" data-end="1076"><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre data-start="886" data-end="1076"><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [[1 'A'], [1 'B'], [1 'C'], [2], [4], [3], [4]]<br><strong>Output: </strong>["AB", "ABC"]<br><strong>Explanation: </strong>For each query following changes are made into the document.<br>1st query: Append('A'), Document contains "A".<br>2nd query: Append('B'), Document contains "AB".<br>3rd query: Append('C'), Document contains "ABC".<br>4rth query: UNDO(), Last character is removed, Document contains "AB".<br>5th query: READ(), Document content will be printed.<br>6th query: REDO(), Document contains "ABC".<br>7th query: READ(), Document content will be printed.<br></span></pre>
+<pre><strong><span style="font-size: 14pt;">Input: </span></strong><span style="font-size: 14pt;">arr[] = [[1 'D'], [2], [4]]</span><strong><span style="font-size: 14pt;"><br>Output: </span></strong><span style="font-size: 14pt;">[""]</span><strong><span style="font-size: 14pt;"><br>Explanation: </span></strong><span style="font-size: 14pt;">Queries will be processed as:</span><span style="font-size: 14pt;"><br>1st query: Append('D'), Document contains "D".<br>2nd query: UNDO(), Last character is removed, Document becomes empty.<br>3rd query: READ(), Empty Document will be printed.<br></span></pre>
+<p><strong><span style="font-size: 14pt;">Constraints:<br></span></strong><span style="font-size: 14pt;">1 </span><span style="background-color: #ffffff; color: #001d35; font-family: 'Google Sans', Arial, sans-serif; font-size: 18px;">≤ q </span><span style="background-color: #ffffff; color: #001d35; font-family: 'Google Sans', Arial, sans-serif; font-size: 18px;">≤ 10<sup>4</sup><br></span></p></div>
