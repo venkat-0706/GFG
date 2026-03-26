@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/number-of-ways-to-arrive-at-destination/1">Number of Ways to Arrive at Destination</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an undirected weighted graph with <strong>V</strong> vertices numbered from 0 to V-1 and <strong>E</strong> edges, represented as a 2D array <strong>edges[][],</strong></span><span style="font-size: 18px;"> where&nbsp;<strong><code>edges[i] = [u<sub>i</sub>, v<sub>i</sub>, time<sub>i</sub>]</code></strong> means that there is an undirected edge between nodes <code>u<sub>i</sub></code>&nbsp;and&nbsp;<code>v<sub>i</sub></code>&nbsp;that takes&nbsp;<code>time<sub>i</sub></code> minutes to reach. <br></span><span style="font-size: 18px;">Your task is to return in how many <strong>ways</strong> you can travel from node <code>0</code> to node <code>V - 1</code>&nbsp;in the&nbsp;<strong>shortest amount of time</strong>.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>V = 4, edges[][] = [[0, 1, 2], [1, 2, 3], [0, 3, 5], [1, 3, 3], [2, 3, 4]]<br>    <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/915517/Web/Other/blobid0_1763377321.jpg" width="284" height="202"></span>
+<span style="font-size: 18px;"><strong>Output: </strong>2
+<strong>Explanation: </strong></span><span style="font-size: 18px;">The shortest path from 0 to 3 is 5.</span>
+<span style="font-size: 18px;">Two ways to reach 3 in 5 minutes are:
+0 -&gt; 3<br>0 -&gt; 1 -&gt; 3</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>V = 6, edges[][] = [[0, 2, 3], [0, 4, 2], [0, 5, 7], [2, 3, 1], [2, 5, 5], [5, 3, 3], [5, 1, 4], [1, 4, 1], [4, 5, 5]]<br>    <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/915517/Web/Other/blobid1_1763377332.jpg" width="280" height="291"></span>
+<span style="font-size: 18px;"><strong>Output: </strong>4
+<strong>Explanation: </strong>The shortest path from 0 to 5 is 7.</span>
+<span style="font-size: 18px;">Four ways to reach 5 in 7 minutes are:
+0 -&gt; 5<br>0 -&gt; 4 -&gt; 5<br>0 -&gt; 4 -&gt; 1 -&gt; 5<br>0 -&gt; 2 -&gt; 3 -&gt; 5</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br><code>1 ≤ V ≤ 200<br>V - 1 ≤ edges.size() ≤ V * (V - 1) / 2<br>
+0 ≤ u<sub>i</sub>, v<sub>i</sub> ≤ V - 1<br></code></span><span style="font-size: 18px;"><code>1 ≤ time<sub>i</sub> ≤ 10<sup>5</sup><br>
+u<sub>i&nbsp;</sub>!= v<sub>i</sub></code><br></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Bloomberg</code>&nbsp;<code>Google</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Graph</code>&nbsp;<code>Shortest Path</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
