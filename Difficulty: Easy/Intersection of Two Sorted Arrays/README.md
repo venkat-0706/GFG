@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-arrays-with-duplicate-elements/1">Intersection of Two Sorted Arrays</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two&nbsp;<strong>sorted</strong>&nbsp;arrays&nbsp;<strong>a[]</strong>&nbsp;and&nbsp;<strong>b[]</strong>, where each array may contain duplicate elements, return the elements in the <strong>intersection</strong>&nbsp;of the two arrays in&nbsp;<strong>sorted</strong> order.</span></p>
+<p><span style="font-size: 18px;"><strong>Note:</strong> Intersection of two arrays can be defined as the set containing distinct common elements that are present in both of the arrays.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: a[] = [1, 1, 2, 2, 2, 4], b[] = [2, 2, 4, 4]</span><br><span style="font-size: 18px;"><strong>Output</strong>: [2, 4]</span><br><span style="font-size: 18px;"><strong>Explanation</strong>: Distinct common elements in both the arrays are: 2 and 4.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: a[] = [1, 2], b[] = [3, 4]
+<strong>Output</strong>: []
+<strong>Explanation</strong>: No common elements.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: a[] = [1, 2, 3], b[] = [1, 2, 3]
+<strong>Output</strong>: [1, 2, 3]
+<strong>Explanation</strong>: All elements are common.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 <span style="font-size: 14pt;">≤</span> a.size(), b.size() <span style="font-size: 14pt;">≤</span> 10<sup>5</sup><br>-10<sup>9&nbsp;</sup></span><span style="font-size: 15px;"><span style="font-size: 14pt;">≤</span> </span><span style="font-size: 18px;">a[i], b[i] <span style="font-size: 14pt;">≤</span> 10</span><sup>9</sup></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Sorting</code>&nbsp;<code>Arrays</code>&nbsp;
