@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/flip-bits0240/1">Flip to Maximize 1s</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr[]</strong> consisting of <strong>0’s</strong> and <strong>1’s</strong>. A flip operation involves changing all 0's to 1's and all 1's to 0's within a contiguous subarray.&nbsp;Formally, select a range <strong>(l, r)</strong> in the array arr[], such that (0 ≤ l ≤ r &lt; n) holds and flip the elements in this range. </span></p>
+<p><span style="font-size: 18px;">Return the <strong>maximum</strong> number of 1's you can get in the array after doing <strong>at</strong> <strong>most</strong> <strong>1</strong> flip operation.<br></span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 0, 0, 1, 0]
+<strong>Output: </strong>4
+<strong>Explanation: </strong></span><span style="font-size: 14pt;">By flipping the subarray from index 1 to 2, the array becomes [1, 1, 1, 1, 0]. </span><span style="font-size: 14pt;">This results in a total of 4 ones, which is the maximum possible after at most one flip.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 0, 0, 1, 0, 0, 1]</span>
+<span style="font-size: 18px;"><strong>Output: </strong>6
+<strong>Explanation: </strong></span><span style="font-size: 18px;">By flipping the subarray from index 1 to 5, the array becomes [1, 1, 1, 0, 1, 1, 1]. This results in a total of 6 ones, which is the maximum possible after at most one flip.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n ≤ 10<sup>6</sup><br>0 ≤ arr[i] ≤ 1</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
