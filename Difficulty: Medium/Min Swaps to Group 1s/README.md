@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-swaps-required-to-group-all-1s-together2451/1">Min Swaps to Group 1s</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18.6667px;">You are given a binary array&nbsp;<strong>arr[]&nbsp;</strong>consisting only of&nbsp;<strong>0</strong>s and&nbsp;<strong>1</strong>s. Determine the&nbsp;<strong>minimum</strong>&nbsp;number of swaps required to group all the 1s together in a contiguous subarray.</span></p>
+<p><span style="font-size: 18.6667px;">A&nbsp;<strong>swap</strong>&nbsp;operation allows you to choose any two indices i and j and exchange their values (i.e., swap(arr[i], arr[j])).</span></p>
+<p><span style="font-size: 18.6667px;">If the array contains no 1s, return&nbsp;<strong>-1</strong>.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr[] = [1, 0, 1, 0, 1]
+<strong>Output:</strong> 1
+<strong>Explanation: </strong>Only 1 swap is required to group all 1's together. Swapping index 1 and 4 will give arr[] = [1, 1, 1, 0, 0].
+</span></pre>
+<pre><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Input:</strong><span style="font-size: 14pt;"> arr[] = [1, 0, 1, 0, 1, 1] </span><strong style="font-size: 14pt;">
+Output:</strong><span style="font-size: 14pt;"> 1<br></span><strong><span style="font-size: 18.6667px;">Explanation: </span></strong><span style="font-size: 14pt;">Only 1 swap is required to group all 1's together. Swapping index 0 and 3 will give arr[] = [0, 0, 1, 1, 1, 1].</span></span></pre>
+<pre><span style="font-size: 18.6667px;"><strong>Input:</strong> arr[] = [0, 0, 0]</span><br><span style="font-size: 18.6667px;"><strong>Output:</strong> -1<br></span><span style="font-size: 18.6667px;"><strong>Explanation:</strong> No 1s are present in the array, so return -1.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><br>0 ≤ arr[i] ≤ 1</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Adobe</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
