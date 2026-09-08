@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-the-string-in-grid0111/1">Word in Grid - All Occurrences</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a 2D grid <strong>mat[][]</strong> of size<strong> n × m</strong> consisting of characters and a string <strong>word</strong>, find all starting positions where the word occurs in the grid. </span></p>
+<ul>
+<li><span style="font-size: 14pt;">The word can be formed from any cell by moving in any of the 8 directions (2 horizontal, 2 vertical, and 4 diagonal) in a straight line without changing direction.</span></li>
+<li><span style="font-size: 14pt;">Each cell can be used at most once per occurrence.</span></li>
+<li><span style="font-size: 14pt;">Return all unique starting coordinates in lexicographically smallest order.</span></li>
+</ul>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><span style="font-size: 18px;"><strong>Input:</strong> mat[][] = {{a,b,a,b},{a,b,e,b},{e,b,e,b}}, word = "abe"
+<strong>Output:</strong> {{0,0}, {0,2}, {1,0}}
+</span><strong style="font-size: 18px;">Explanation: </strong><span style="font-size: 18px;">From (0,0) we can find "abe" in right-down diagonal. From (0,2) we can find "abe" in left-down diagonal. From (1,0) we can find "abe" in horizontally right direction.</span><strong style="font-size: 18px;"><br></strong><strong style="font-size: 18px;"><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/926518/Web/Other/blobid0_1780662652.png" width="193" height="148"><br></strong></span></pre>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong><span style="font-size: 18px;"> mat[][] = {{G,E,E,K,S,F,O,R,G,E,E,K,S}, {G,E,E,K,S,Q,U,I,Z,G,E,E,K}, {I,D,E,Q,A,P,R,A,C,T,I,C,E}}, word = "GEEKS"
+</span><strong style="font-size: 18px;">Output:</strong><span style="font-size: 18px;"> {{0,0}, {0,8}, {1,0}}
+</span><strong style="font-size: 18px;">Explanation: </strong><span style="font-size: 18px;">From (0,0) we can find "GEEKS" horizontally right. From (0,8) we can find "GEEKS" horizontally right. From (1,0) we can find "GEEKS" horizon</span><span style="font-size: 18px;">tally right.</span><span style="font-size: 18px;"> <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/926518/Web/Other/blobid1_1780663080.png" width="504" height="142"></span></span>
+</pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= n &lt;= m &lt;= 50<br>1 &lt;= |word| &lt;= 20</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Zoho</code>&nbsp;<code>Flipkart</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Samsung</code>&nbsp;<code>FactSet</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Recursion</code>&nbsp;<code>DFS</code>&nbsp;<code>Matrix</code>&nbsp;
